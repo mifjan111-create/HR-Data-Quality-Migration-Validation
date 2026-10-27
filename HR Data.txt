@@ -1,0 +1,25 @@
+-- Duplicate Employee IDs
+
+SELECT
+field1 AS EmployeeID,
+COUNT(*) AS RecordCount
+FROM HR_Target
+GROUP BY field1
+HAVING COUNT(*) > 1;
+
+
+
+-- Missing Employee Names
+
+SELECT *
+FROM HR_Target
+WHERE field2 IS NULL;
+
+
+
+-- Salary Validation
+
+SELECT *
+FROM HR_Target
+WHERE field1 <> 'EmployeeID'
+AND CAST(field7 AS INTEGER) <= 0;
