@@ -5,57 +5,58 @@
 An HR data migration required validation to ensure source-to-target reconciliation, data quality, and migration readiness before deployment
 
 **Tools Used**
-SQL (SQLite)
 
-Power BI
+-SQL (SQLite)
 
-Excel
+-Power BI
+
+-Excel
 
 
 **Validation Checks Performed**
 
-Duplicate Employee ID Detection
+-Duplicate Employee ID Detection
 
-Missing Employee Data Validation
+-Missing Employee Data Validation
 
-Salary Validation
+-Salary Validation
 
-Employment Status Validation
+-Employment Status Validation
 
-Future Hire Date Validation
+-Future Hire Date Validation
 
-Record Reconciliation
+-Record Reconciliation
 
 **Key Findings**
 
-Identified 1 duplicate employee record (E1003)
+-Identified 1 duplicate employee record (E1003)
 
-Identified 1 missing employee name (E1017)
+-Identified 1 missing employee name (E1017)
 
-No salary validation issues detected
+-No salary validation issues detected
 
-No invalid employment statuses detected
+-No invalid employment statuses detected
 
-Successfully reconciled source and target data counts
+-Successfully reconciled source and target data counts
 
 
 **Dashboard Overview**
 
-The dashboard summarizes HR data quality metrics and migration validation results using Power BI.
+-The dashboard summarizes HR data quality metrics and migration validation results using Power BI.
 
 **Skills Demonstrated**
 
-SQL
+-SQL
 
-Data Quality Assessment
+-Data Quality Assessment
 
-Data Validation
+-Data Validation
 
-Data Reconciliation
+-Data Reconciliation
 
-HR Analytics
+-HR Analytics
 
-Power BI Reporting
+-Power BI Reporting
 
 
 **Dashboard Preview**
