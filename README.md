@@ -2,62 +2,78 @@
 
 **Business Problem**
 
-An HR data migration required validation to ensure source-to-target reconciliation, data quality, and migration readiness before deployment
+An HR data migration required validation to ensure employee data was accurately transferred from the source system to the target environment. The objective was to identify data quality issues, validate business rules, and confirm migration readiness before reporting and analytics consumption.
 
 **Tools Used**
 
--SQL (SQLite)
+•	SQL (SQLite)
 
--Power BI
+•	Power BI
 
--Excel
-
+•	Excel
 
 **Validation Checks Performed**
 
--Duplicate Employee ID Detection
+•	Duplicate Employee ID Detection
 
--Missing Employee Data Validation
+•	Missing Employee Name Validation
 
--Salary Validation
+•	Salary Validation
 
--Employment Status Validation
+•	Employment Status Validation
 
--Future Hire Date Validation
+•	Future Hire Date Validation
 
--Record Reconciliation
+•	Record Count Reconciliation
 
 **Key Findings**
 
--Identified 1 duplicate employee record (E1003)
+•	Identified 1 duplicate employee record (Employee ID: E1003).
 
--Identified 1 missing employee name (E1017)
+•	Identified 1 employee record with a missing employee name (Employee ID: E1017).
 
--No salary validation issues detected
+•	Successfully reconciled source and target employee record counts.
 
--No invalid employment statuses detected
+•	No salary validation issues detected.
 
--Successfully reconciled source and target data counts
+•	No invalid employment statuses detected.
 
+•	No future hire date anomalies detected.
 
-**Dashboard Overview**
+**Dashboard Features**
 
--The dashboard summarizes HR data quality metrics and migration validation results using Power BI.
+•	Source vs Target Record Monitoring
+
+•	Data Quality KPI Tracking
+
+•	Validation Findings Summary
+
+•	Department Analysis
+
+•	Employment Status Distribution
+
+•	Salary Analysis by Department
 
 **Skills Demonstrated**
 
--SQL
+•	SQL Querying
 
--Data Quality Assessment
+•	Data Quality Assessment
 
--Data Validation
+•	Data Validation
 
--Data Reconciliation
+•	Data Reconciliation
 
--HR Analytics
+•	HR Data Analysis
 
--Power BI Reporting
+•	Power BI Dashboard Development
 
+•	Business Reporting
 
 **Dashboard Preview**
-<img width="1522" height="854" alt="HR Data" src="https://github.com/user-attachments/assets/60d701ee-f976-4589-9469-9a8fefb2ce7a" />
+
+<img width="1116" height="603" alt="Dashboard" src="https://github.com/user-attachments/assets/64db242d-f020-4bb7-9347-a8dd9d5f21c7" />
+
+**Business Impact**
+
+This project demonstrates how structured validation and reconciliation processes can identify data quality risks before deployment, helping improve reporting accuracy and migration reliability.
